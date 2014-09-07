@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D6D6ADC199291FD009425EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D6D6ADB199291FD009425EB /* Main.storyboard */; };
 		0D713675199142B900358012 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D713674199142B900358012 /* main.m */; };
 		0D713678199142B900358012 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D713677199142B900358012 /* AppDelegate.m */; };
 		0D71367B199142B900358012 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D71367A199142B900358012 /* ViewController.m */; };
-		0D71367E199142B900358012 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D71367C199142B900358012 /* Main.storyboard */; };
 		0D713680199142B900358012 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D71367F199142B900358012 /* Images.xcassets */; };
 		0D71368C199142B900358012 /* beaconsscannerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D71368B199142B900358012 /* beaconsscannerTests.m */; };
+		373BF631AF044BE7A6E854FD /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC6964DA8DF1457294D5D444 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D6D6ADB199291FD009425EB /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		0D71366F199142B900358012 /* beaconsscanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = beaconsscanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D713673199142B900358012 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0D713674199142B900358012 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -33,11 +35,12 @@
 		0D713677199142B900358012 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		0D713679199142B900358012 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		0D71367A199142B900358012 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		0D71367D199142B900358012 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0D71367F199142B900358012 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0D713685199142B900358012 /* beaconsscannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = beaconsscannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D71368A199142B900358012 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0D71368B199142B900358012 /* beaconsscannerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = beaconsscannerTests.m; sourceTree = "<group>"; };
+		2D500E1EEC494FF7B712A0FA /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		DC6964DA8DF1457294D5D444 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				373BF631AF044BE7A6E854FD /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +68,8 @@
 				0D713671199142B900358012 /* beaconsscanner */,
 				0D713688199142B900358012 /* beaconsscannerTests */,
 				0D713670199142B900358012 /* Products */,
+				2D500E1EEC494FF7B712A0FA /* Pods.xcconfig */,
+				B5AF53DAD5DD46F1AADDD4B3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,9 +89,9 @@
 				0D713677199142B900358012 /* AppDelegate.m */,
 				0D713679199142B900358012 /* ViewController.h */,
 				0D71367A199142B900358012 /* ViewController.m */,
-				0D71367C199142B900358012 /* Main.storyboard */,
 				0D71367F199142B900358012 /* Images.xcassets */,
 				0D713672199142B900358012 /* Supporting Files */,
+				0D6D6ADB199291FD009425EB /* Main.storyboard */,
 			);
 			path = beaconsscanner;
 			sourceTree = "<group>";
@@ -116,6 +122,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		B5AF53DAD5DD46F1AADDD4B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC6964DA8DF1457294D5D444 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -123,9 +137,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0D71368F199142B900358012 /* Build configuration list for PBXNativeTarget "beaconsscanner" */;
 			buildPhases = (
+				0E6CEBCFB601460C93613BCD /* Check Pods Manifest.lock */,
 				0D71366B199142B900358012 /* Sources */,
 				0D71366C199142B900358012 /* Frameworks */,
 				0D71366D199142B900358012 /* Resources */,
+				7FF781CA1E534CEA8DF3DB7C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,8 +212,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D71367E199142B900358012 /* Main.storyboard in Resources */,
 				0D713680199142B900358012 /* Images.xcassets in Resources */,
+				0D6D6ADC199291FD009425EB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +225,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E6CEBCFB601460C93613BCD /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7FF781CA1E534CEA8DF3DB7C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0D71366B199142B900358012 /* Sources */ = {
@@ -238,17 +287,6 @@
 			targetProxy = 0D713686199142B900358012 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		0D71367C199142B900358012 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0D71367D199142B900358012 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		0D71368D199142B900358012 /* Debug */ = {
@@ -331,10 +369,12 @@
 		};
 		0D713690199142B900358012 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D500E1EEC494FF7B712A0FA /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = beaconsscanner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -342,10 +382,12 @@
 		};
 		0D713691199142B900358012 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D500E1EEC494FF7B712A0FA /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = beaconsscanner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -404,6 +446,7 @@
 				0D713691199142B900358012 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0D713692199142B900358012 /* Build configuration list for PBXNativeTarget "beaconsscannerTests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +455,7 @@
 				0D713694199142B900358012 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

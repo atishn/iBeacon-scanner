@@ -8,8 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+#import <HGBeaconManager/HGBeaconManager.h>
+#import <HGBeaconManager/HGBeaconUUID.h>
 
+@interface ViewController : UIViewController <HGBeaconManagerProtocol>
+
+@property (nonatomic, strong) UILabel *label;
 
 @end
 
